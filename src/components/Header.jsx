@@ -15,7 +15,7 @@ class Header extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      current: props.location.pathname.indexOf('chart') > -1?'chart':'home',
+      current: props.location.pathname.indexOf('/chart') > -1?'chart':'home',
     }
   }
   
